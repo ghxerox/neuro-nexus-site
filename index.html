@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neuro Nexus Consulting</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Helvetica Neue', sans-serif;
+      color: #111;
+      background-color: #f5f5f5;
+    }
+
+    header {
+      background: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .logo {
+      height: 48px;
+    }
+
+    nav a {
+      margin-left: 1.5rem;
+      text-decoration: none;
+      color: #333;
+      font-weight: 600;
+    }
+
+    .hero {
+      position: relative;
+      height: 90vh;
+      background: url("public/images/hero-neuro-brain-retina.png") no-repeat center center;
+      background-size: cover;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.6);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 700px;
+      padding: 2rem;
+    }
+
+    .hero h1 {
+      font-size: 2.2rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.1rem;
+      line-height: 1.6;
+    }
+
+    .content-section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 4rem 2rem;
+      background: #fff;
+    }
+
+    .card {
+      flex: 1 1 300px;
+      margin: 1rem;
+      background: #fafafa;
+      border-radius: 10px;
+      padding: 2rem;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #222;
+    }
+
+    footer {
+      background-color: #0c0e1a;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      nav a {
+        margin-left: 0.8rem;
+        font-size: 0.9rem;
+      }
+
+      .hero h1 {
+        font-size: 1.6rem;
+      }
+
+      .hero p {
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="public/images/neuro-nexus-logo.png" alt="Neuro Nexus Logo" class="logo">
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#team">Team</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Unlock Deeper Understanding</h1>
+      <p>
+        Multidisciplinary insight across behavioral neurology, cognitive & sleep medicine, neurocritical care, 
+        neuropsychology, electrocognition, medicolegal analysis, biostatistics, and computational neurodiagnostics.
+      </p>
+    </div>
+  </section>
+
+  <section class="content-section">
+    <div class="card">
+      <h3>The Challenge & Our Solution</h3>
+      <p>
+        We help clients understand complex neurocognitive data and translate them into actionable strategies. 
+        Our expert assessments drive better outcomes and deeper knowledge.
+      </p>
+    </div>
+    <div class="card">
+      <h3>Our Multidisciplinary Edge</h3>
+      <p>
+        Neuro Nexus Consulting unites expertise in medicine, data science, and clinical analysis, providing 
+        exceptional depth for health, legal, and research sectors.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>Get in touch • NeuroNexusConsulting.com</p>
+  </footer>
+</body>
+
+</html>
